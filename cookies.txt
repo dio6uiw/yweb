@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.yweb.pages.app.br	TRUE	/	FALSE	1999999999	__cf_bm	fuotNdK5OT3y0X0KtgV_1etprbspoyLt3WNG5L2e.dA-1708020740-1.0-AU5P/nBSqv8tKsTszWQ02lC1pPmJjIXSA1XNNdFYm21+WjryFSXOIc6ccfqbUE+PQaa4/w/UWD+nrO0004RT8vE=
+yweb.pages.app.br	TRUE	/	FALSE	1999999999	SameSite	None
+
