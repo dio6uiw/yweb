@@ -1395,25 +1395,6 @@
 },400);
 }
 }
- 
- if(!window.getCrawler()){
- GModalApproval.instalar({
- 'barra':{
- 'cor':'ffffff',
- 'classe':'',
- 'texto':'Usamos cookies para personalizar conteúdos e melhorar a sua experiência.',
- 'botao_configurar':false,
- 'botao_aceitar':'Ok, entendi',
- 'fechar':false,
- 'editar_consentimento':false
-},
- 'opcoes':[
-{
- 'titulo':'Cookies obrigatórios',
- 'texto':'Eles são cookies para garantir o funcionamento adequado do site.',
- 'aviso':'Sempre ativo',
- 'id':'o'
-}
  ],
  'dominio':'.pages.app.br',
  'editado':(GModalApproval.preferencias() ? true :false)
