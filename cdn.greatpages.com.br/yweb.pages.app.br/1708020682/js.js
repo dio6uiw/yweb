@@ -1891,23 +1891,6 @@ var GModalApproval = function(){
  setTimeout(function(){GModalApproval.posicionar();}, 500);
 }
 },
- 
- barra :function(configuracao){
- 
- if (configuracao.barra.hasOwnProperty('fechar') == false){configuracao.fechar = false;}
- if (configuracao.barra.hasOwnProperty('cor') == false){configuracao.barra.cor = 'ffffff';}
- if (configuracao.barra.hasOwnProperty('classe') == false){configuracao.barra.classe = '';}
- if (configuracao.barra.hasOwnProperty('botao_configurar') == false){configuracao.barra.botao_configurar = false;}
- if (configuracao.barra.hasOwnProperty('botao_aceitar') == false){configuracao.barra.botao_aceitar = 'Entendi e aceito';}
- if (configuracao.barra.hasOwnProperty('texto') == false){configuracao.barra.texto = 'Usamos cookies para personalizar conteúdos e melhorar a sua experiência.';}
- 
- var barra = '<div id="gpc-lgpd_texto">'+configuracao.barra.texto+'</div>';
- barra += '<div id="gpc-lgpd_botoes">';
- if(configuracao.barra.botao_configurar){barra += '<div id="gpc-lgpd_botoes-configurar" class="gpc-lgpd_botoes-botao">'+configuracao.barra.botao_configurar+'</div>';}
- barra += '<div id="gpc-lgpd_botoes-confirmar" class="gpc-lgpd_botoes-botao">'+configuracao.barra.botao_aceitar+'</div>';
- barra += "</div>";
- if(configuracao.barra.fechar){barra += '<div id="gpc-lgpd_fechar"></div>';}
- 
  var g_lgpd = document.createElement("div");
  g_lgpd.id = 'gpc-lgpd';
  g_lgpd.className = 'posicionar gpc-lgpd-cor_'+configuracao.barra.cor+' '+(configuracao.barra.botao_configurar ? 'botoes' :'botao')+' '+configuracao.barra.classe;
